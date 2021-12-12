@@ -3,6 +3,6 @@ services:
 - environment_slug: node-js
   github:
     branch: main
-    deploy_on_push: true
+    deploy_on_push: false
     repo: jakedowns/sample-expressjs
   name: jakedowns
